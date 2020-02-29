@@ -1,0 +1,41 @@
+Reflections:
+   1. Was there any particular type of task you overestimated/underestimated time for?
+      Can you say anything about what types of tasks you find especially hard
+      to estimate? Do you have any insight into why?
+
+I was wrong at the first time, because I heard this class’s projects were not that hard. I did not take much time at first days, and I regretted for this. For the specific content, I think the first difficult thing is to understand what is Json and how to the use Json library. The second thing and the most difficult thing is how to create a class. It is hard because you have to know how this class works first and then you have to convert it by a string. It is because it is hard to learn a new thing like json and hard to think a thing in a reverse way.
+
+   2. How well did you meet your intermediate deadlines?
+
+I nearly meet the deadlines. I usually plan to finish one task in three hours, however, some of the tasks need much more time to finish it. For example, I took about two days to understand what I need to do for this project. The hardest part is how to build the serialization and deserialization functions.
+
+   3. Suppose your customer were to change the requirements now. How easy/hard would
+      it be to accommodate the following changes.  Why are these easy or hard?
+        o Instead of just producing Java code, your program must now
+          be accept an option for what language to produce code in: Java,
+          Python, or C++.
+        o In addition to accepting JSON specifications for the classes to produce,
+          your program must also be able to accept XML files.
+        o Your generated classes must be able to serialize/deserialize into XML
+          as well as JSON
+
+(1)	AS far as I think, it is easy to convert this project to Python code, because Python has a lot of library that can take care of the functions,  so I have to create in the java code. It is hard to convert it into C++, because C++ has less library. Another thing is that C++ has pointer this object and it is harder to manipulate these objects.
+(2)	It depends. Because if the XML has the same structure as JSON, we can easily convert those method to XML object. However, if there is not, we have to make up new methods and functions to deal with XML objects.
+(3)	It is same answer as above function. If XML object has same structure as JSON, it can do. 
+
+   
+
+
+
+4. As you have been doing this assignment, you have been learning a lot more
+      about object-oriented design.  If you had known at the start what you know
+      now, would you have done anything differently?  Would any of the design
+      patterns we learned about in class have worked well in this assignment?
+
+Yes, if you had known at the start, I would take more time to think about the structure of the whole project. Then, I would have more ways to test my code. I think Adaptor pattern may be used in this project. Since we have different dimension of array, we may use Adaptor pattern to deal with all the arrays.
+
+   5. What lessons did you learn from doing this assignment?  How will it inform
+      your future software development in this class, other classes, and/or
+      your professional life?
+
+From this assignment, I learned that at first, this course is much harder than I thought. So, I need to take more time to the next projects. In addition, if I will deal with something or work on some task that I don’t know in the future, I would better to take time to learn what is this thing or what this task need me to do. Then, it is important to have a blueprint of the task. 

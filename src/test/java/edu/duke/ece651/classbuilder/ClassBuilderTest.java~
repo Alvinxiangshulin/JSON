@@ -1,0 +1,41 @@
+package edu.duke.ece651.classbuilder;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import java.nio.file.*;
+import java.io.IOException;
+import java.io.*;
+public class ClassBuilderTest {
+  @Test
+  public void test_ClassBuilder() throws Exception{
+    String content1 = Files.readString(Paths.get("../ece651-hwk1-tester/inputs/empty.json")); 
+    ClassBuilder A = new ClassBuilder(content1);
+    String bathpath = "../ece651-hwk1-tester/src/main/java/";
+    A.createAllClasses(bathpath);
+
+    String content2 = Files.readString(Paths.get("../ece651-hwk1-tester/inputs/arr.json")); 
+    ClassBuilder b = new ClassBuilder(content2);
+    
+    b.createAllClasses(bathpath);
+
+    String content3 = Files.readString(Paths.get("../ece651-hwk1-tester/inputs/nameRef.json")); 
+    ClassBuilder c = new ClassBuilder(content3);
+    
+    c.createAllClasses(bathpath);
+
+    String content4 = Files.readString(Paths.get("../ece651-hwk1-tester/inputs/prims.json")); 
+    ClassBuilder d = new ClassBuilder(content4);
+    
+    d.createAllClasses(bathpath);
+
+    String content5 = Files.readString(Paths.get("../ece651-hwk1-tester/inputs/simple.json"));
+    ClassBuilder e = new ClassBuilder(content5);
+    
+    e.createAllClasses(bathpath);
+
+    
+    
+  }
+
+}

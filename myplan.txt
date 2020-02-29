@@ -1,0 +1,171 @@
+1.
+Task: Read readme.txt
+(1)Read the materials in readme.txt and figure out what's the purpose of this project. 
+(2)Create the environment of this project and files
+Estimated Time: 3 hours
+Target Deadline: January 30, 11:30AM
+Actual Delivery: January 30, 12:37AM
+Commit ID:e0d8b62a
+Comments:It is much harder to has a clear understanding of the reading material. I read the REAMDE text several times to understand what I need to do. The environment is also important that we should need gradle and Jnuit 
+
+2.
+Task:Find the materials about the JSON. What is JSON? How to deal with JSON?
+(1)read the blogs about JSON
+(2)watch the videos about JSON
+(3)ask classmates how JSON object works
+Estimated Time: 3 hours
+Target Deadline: January 30, 12:00PM
+Actual Delivery: January 30, 15:37PM
+Commit ID:e0d8b62a
+Comments: The JSON object contains a lot of materials. And JSON has its own library. 
+
+3.
+Task: Figure out the private field of classbuilder constructor and have a simple idea what to do
+(1)figure out the private fields of the classbuilder
+(2)what is inputstream
+(3)how to use string classbuilder to create inputstream classbuilder
+Estimated Time: 3 hours
+Target Deadline: January 31, 11:30AM
+Actual Delivery: January 31, 12:37AM
+Commit ID:e0d8b62a
+Comments:It is much harder to finish the construction without a clear understanding of the reading material. I read the REAMDE text several times to understand what I need to do. For the private field, I put a collection<string> classes, map<string,List<list<string>>> classfileds, string package,  static int id.
+For the private field, I put a collection<string> classes, map<string,List<list<string>>> classfileds, string package,  static int id.
+
+4.
+Task: continue building classbuilder
+(1)figure out the relation of the classbuilders
+(2)how to use the JSON library
+Estimated Time: 3 hours
+Target Deadline: January 31, 11:30AM
+Actual Delivery: January 31, 12:37AM
+Commit ID:fcbeb4dc
+Comments: It is hard to know which function to use to get the field I need. For example, there is getString, optString.
+
+5.
+Task: Finish build classbuilder construction
+(1)have the error detection and error handler
+Estimated Time: 1 hours
+Target Deadline: January 31, 4:30PM
+Actual Delivery: January 31, 5:37PM
+Commit ID:fcbeb4dc
+Comments: I do not understant the exceptions of java very well, so the test coverage is low.
+
+6.
+Task:Revise classbuider construction
+(1)finish the constructor that takes string as input
+(2)finish the constructor that takes inputstream as input
+(3)delete the field static id
+Estimated Time: 1 hours
+Target Deadline: January 31, 8:00PM
+Actual Delivery: January 31, 9:00PM
+Commit ID:49436e60
+Comments: The constructor for inputstream can use the constructor of the one taks string as input. In this way, it is required to convert the inputstream to string. Beside the constructor, I found it is required to have a function to read {e:int} etc.
+
+7.
+Task:plan for the getsourcecode()
+(1)finish the recursion method for {e:int}
+(2)create main function and test the input of string
+Estimated Time: 1 hours
+Target Deadline: January 31, 10:00PM
+Actual Delivery: Januray 31, 11:20PM
+Commit ID:49436e60
+Comments:There are some sutble problems need to be fixed.For example, the the capitalization, 2D or multidimension array return. The getsourcecode() is to make up string that is the content of a class 
+
+8.
+Task: Continue finishing the getsourcecode() 
+Estimated Time: 3 hours
+Target Deadline: Feburary 1, 11:00AM
+Actual Delivery: Feburary 1, 3:30PM
+Commit ID:61999038
+Comments: It is hard to think about how to create a field of class, but it is easier to write down what a class is.
+
+
+9.
+Task: Continue finishing the getsourcecode() 
+Estimated Time: 2 hours
+Target Deadline: Feburary 1, 6:00PM
+Actual Delivery: Feburary 1, 8:30PM
+Commit ID:61999038
+Comments: The toJSON is much harder than I thought.
+
+10.
+Task: Continue finishing the getsourcecode() and work on the createAllClasses()
+Estimated Time: 3 hours
+Target Deadline: Feburary 2, 11:00AM
+Actual Delivery: Feburary 2, 3:30PM
+Commit ID:61999038
+Comments: The toJSON function is still not finished. It takes more time to finish toJSON()
+
+
+11.
+Task: Work on toJSON function
+Estimated Time: 3 hours
+Target Deadline: Feburary 3, 11:00AM
+Actual Delivery:Feburary 3, 01:00PM 
+Commit ID: 61999038
+Comments:This function is a hard job and still the multidimentional arraylist tojson function is still unsolved.
+
+12.
+Task: Continue working on toJSON function
+Estimated Time: 3 hours
+Target Deadline: Feburary 3, 4:00PM
+Actual Delivery:Feburary 3, 6:00PM 
+Commit ID: bc6c5b65
+Comments:This function is a hard job and still the multidimentional arraylist tojson function is still unsolved. 
+
+12.
+Task: Continue working on toJSON function
+Estimated Time: 3 hours
+Target Deadline: Feburary 4, 11:00AM
+Actual Delivery:Feburary 4, 01:00PM 
+Commit ID: dc4ff225
+Comments:This function is a hard job and still the multidimentional arraylist tojson function is still unsolved.
+
+13.
+Task: get done with the toJSON function and have some basic testcases 
+Estimated Time: 3 hours
+Target Deadline: Feburary 4, 4:00PM
+Actual Delivery: Feburary 4, 10:00PM
+Commit ID:dc4ff225
+Comments: The serialization method is much harder than I thought, so I took a long time to get this done.I need to be hurry to test.
+
+
+14.
+Task: Work on the deserialization class
+Estimated Time: 3 hours
+Target Deadline: Feburary 5, 10:00AM
+Actual Delivery: Feburary 5, 2:45PM
+Commit ID: 6b174c38
+Comments: The deserialization class is more like a reverse of the serialization.
+
+15. 
+Task: Work on the deserialization class and finish it
+Estimated Time: 3 hours
+Target Deadline: Feburary 5, 6:00PM
+Actual Delivery: Feburary 5, 12:00PM
+Commit ID: 6b174c38
+Comments: It is so hard and cannot debug yet.
+
+16. 
+Task: Make up testcases for this project and revise the code
+Estimated Time: 3 hours
+Target Deadline: Feburary 6, 10:00AM
+Actual Delivery: Feburary 6, 12:00AM
+Commit ID:c929acf4
+Comments: Find the problem of the deserialization and revise it
+
+17. 
+Task: Use the testcases that Drew put on the piaaza to test on virtual machine
+Estimated Time: 3 hours
+Target Deadline: Feburary 6, 1:00PM
+Actual Delivery: Feburary 6, 4:00PM
+Commit ID:c929acf4
+Comments: Find out more errors and need to revise the code
+
+18. 
+Task: Finsih the myplan.txt, reflection and comments
+Estimated Time: 3 hours
+Target Deadline: Feburary 6, 5:00PM
+Actual Delivery: Feburary 6, 12:00PM
+Commit ID: 630b2f13
+Comments: This project is so much harder than I thought
